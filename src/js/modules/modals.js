@@ -21,7 +21,6 @@ const modals = () => {
             modal.style.display = 'none'
             document.body.style.overflow = ''
             // document.body.classList.remove('modal-open')
-            console.log(1)
         })
 
         modal.addEventListener('click', (e) => {
@@ -29,6 +28,7 @@ const modals = () => {
                 modal.style.display = 'none'
                 document.body.style.overflow = ''
                 // document.body.classList.remove('modal-open')
+                console.log(e.target)
             }
         })
     }
